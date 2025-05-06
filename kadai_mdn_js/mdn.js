@@ -1,3 +1,6 @@
-const date = new Date(2025, 5 - 1, 5,);
-const dateText = `${date.getFullYear()}年${date.getMonth() + 1}月${date.getDate()}日`;
-console.log(dateText);
+const date = new Date();
+const year = date.getFullYear();
+const month = date.getMonth() + 1;
+const day = date.getDate();
+const formattedDate = `${year}年${month}月${day}日`;
+console.log(formattedDate);
